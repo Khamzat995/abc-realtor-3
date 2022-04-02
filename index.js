@@ -35,8 +35,8 @@ const start = async () => {
     }
     else {
       https.createServer({
-        key: fs.readFileSync('/etc/ssl/istanbul-expert.com.key'),
-        cert: fs.readFileSync('/etc/ssl/istanbul-expert.com.crt'),
+        key: fs.readFileSync('/etc/ssl/istanbul-expert_com.key.txt'),
+        cert: fs.readFileSync('/etc/ssl/istanbul-expert_com.crt'),
         requestCert: false,
         rejectUnauthorized: false
       }, app).listen(443, () => {
