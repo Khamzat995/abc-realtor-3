@@ -17,7 +17,6 @@ const CartItem = ({ id, image, name, price, amount, footage }) => {
         <div>
           <Link to={`/products/${id}`} className="link">
             <h5 className="name">
-              {/*{name}*/}
               {
                 name === "квартира" &&
                 <>{t('product-name-1')}</>

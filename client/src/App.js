@@ -5,12 +5,9 @@ import {
   Home,
   SingleProduct,
   Cart,
-  Checkout,
   Error,
   About,
   Products,
-  PrivateRoute,
-  AuthWrapper,
   Citizenship
 } from "./pages";
 
@@ -64,37 +61,32 @@ function App() {
             <meta name='description' content='Купить квартиру, недвижимость в Турции легко. Предложения от застойщиков' />
             <meta name="keywords" content="Продажа квартир недвижимости в Стамбуле, Бейликдюзю цены отзывы контакты адрес"></meta>
           </Helmet>
-          <AuthWrapper>
-            <Router>
-              <Navbar />
-              <Sidebar />
-              <Switch>
-                <Route exact path="/">
-                  <Home />
-                </Route>
-                <Route exact path="/about">
-                  <About />
-                </Route>
-                <Route exact path="/citizen">
-                  <Citizenship />
-                </Route>
-                <Route exact path="/cart">
-                  <Cart />
-                </Route>
-                <Route exact path="/products">
-                  <Products />
-                </Route>
-                <Route exact path="/products/:id" children={<SingleProduct />} />
-                <PrivateRoute exact path="/checkout">
-                  <Checkout />
-                </PrivateRoute>
-                <Route path="*">
-                  <Error />
-                </Route>
-              </Switch>
-              <Footer />
-            </Router>
-          </AuthWrapper>
+          <Router>
+            <Navbar />
+            <Sidebar />
+            <Switch>
+              <Route exact path="/">
+                <Home />
+              </Route>
+              <Route exact path="/about">
+                <About />
+              </Route>
+              <Route exact path="/citizen">
+                <Citizenship />
+              </Route>
+              <Route exact path="/cart">
+                <Cart />
+              </Route>
+              <Route exact path="/products">
+                <Products />
+              </Route>
+              <Route exact path="/products/:id" children={<SingleProduct />} />
+              <Route path="*">
+                <Error />
+              </Route>
+            </Switch>
+            <Footer />
+          </Router>
         </div>
       </React.StrictMode>
     </Suspense>

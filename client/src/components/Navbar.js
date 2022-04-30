@@ -21,7 +21,7 @@ const Nav = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <img src={Logo_expertRed} alt="logo" />
+            <img src={Logo_expertRed} width='200' height='70.55' alt="logo" />
           </Link>
           <LangTransOne />
           <button type="button" className="nav-toggle" onClick={openSidebar}>
@@ -30,7 +30,7 @@ const Nav = () => {
         </div>
         <ul className="nav-links">
           <div className="nav-phone" style={{ display: 'flex', alignItems: 'flex-end' }}>
-            <img className="icon-item" src={flagOne} alt='icons' style={{ width: '40px' }} />
+            <img className="icon-item" src={flagOne} alt='icons' width='40' height='40' />
             <h5 className="fas fa-phone" style={{ paddingLeft: '5px', color: 'var(--clr-grey-3)' }}> {" "}+90 552 286 8989</h5>
           </div>
           {links.map((link) => {
@@ -75,8 +75,7 @@ const NavContainer = styled.nav`
     max-width: var(--max-width);
     padding-left: 10px;
     padding-right: 10px;
-    //box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  }
+    }
   .nav-header {
     display: flex;
     align-items: center;

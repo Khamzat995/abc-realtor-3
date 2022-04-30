@@ -30,7 +30,7 @@ const Contact = () => {
                 initiallyVisible={true}
                 animateOnce={true}>
                 <a href="https://wa.me/905522868989" target="_blank" rel="noopener noreferrer">
-                  <img src={WhatsApp} alt='icons' />
+                  <img src={WhatsApp} width='40' height='40' alt='icons' />
                 </a>
               </ScrollAnimation>
 
@@ -38,7 +38,7 @@ const Contact = () => {
                 initiallyVisible={true}
                 animateOnce={true}>
                 <a href="https://t.me/istanbul_exp" target="_blank" rel="noopener noreferrer">
-                  <img src={telegram} alt='icons' />
+                  <img src={telegram} width='40' height='40' alt='icons' />
                 </a>
               </ScrollAnimation>
 
@@ -46,7 +46,7 @@ const Contact = () => {
                 initiallyVisible={true}
                 animateOnce={true}>
                 <a href="https://instagram.com/istanbul_expert/" target="_blank" rel="noopener noreferrer">
-                  <img src={Insta} alt='icons' />
+                  <img src={Insta} width='40' height='40' alt='icons' />
                 </a>
               </ScrollAnimation>
 
@@ -54,7 +54,7 @@ const Contact = () => {
                 initiallyVisible={true}
                 animateOnce={true}>
                 <a href="mailto:exp.istanbul@gmail.com" target="_blank" rel="noopener noreferrer">
-                  <img src={Gmail} alt='icons' />
+                  <img src={Gmail} width='42' height='40' alt='icons' />
                 </a>
               </ScrollAnimation>
             </span>

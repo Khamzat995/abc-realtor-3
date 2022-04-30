@@ -1,4 +1,0 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
-https://www.google.com/ping?sitemap=https://istanbul-expert.com/sitemap.xml
