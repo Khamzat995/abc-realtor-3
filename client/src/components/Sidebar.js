@@ -6,7 +6,7 @@ import { links } from "../utils/constants";
 import styled from "styled-components";
 import CartButtons from "./CartButtons";
 import { useUserContext } from "../context/user_context";
-import Logo_expertRed from '../assets/logo/Logo_expertRed.jpg';
+import Logo_expertRed from '../assets/logo/Logo_expertRed.avif';
 import { useTranslation } from 'react-i18next';
 
 const Sidebar = () => {

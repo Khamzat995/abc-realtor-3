@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Jumbotron as Jumbo } from 'reactstrap';
 import styled from 'styled-components';
-import panoramaJumbo from '../assets/Images/panoramaJombo.jpg';
+import panoramaJumbo from '../assets/Images/panoramaJombo.avif';
 import { useTranslation } from 'react-i18next';
 
 const Styles = styled.div`
@@ -57,27 +57,27 @@ const JumbotronTwo = () => {
 
   return (
     <Styles>
-    <Jumbo fluid className='jumbo'>
-      <div className='overlay'> </div>
-      <Container fluid className='container-fluid'>
-        <h2>{t('jumbotron-two-1')}</h2>
-        <h3>{t('jumbotron-two-2')}</h3>
-        <p>
-          {t('jumbotron-two-text1')}<br/>
-          {t('jumbotron-two-text2')}<br/>
-          {t('jumbotron-two-text3')}<br/>
-          {t('jumbotron-two-text4')}<br/>
-          {t('jumbotron-two-text5')}<br/>
-          {t('jumbotron-two-text6')}<br/>
-          {t('jumbotron-two-text7')}<br/>
-          {t('jumbotron-two-text8')}<br/>
-          {t('jumbotron-two-text9')}<br/>
-          {t('jumbotron-two-text10')}<br/>
-          {t('jumbotron-two-text11')}<br/>
-          {t('jumbotron-two-text12')}<br/>
-        </p>
-      </Container>
-    </Jumbo>
+      <Jumbo fluid className='jumbo'>
+        <div className='overlay'> </div>
+        <Container fluid className='container-fluid'>
+          <h2>{t('jumbotron-two-1')}</h2>
+          <h3>{t('jumbotron-two-2')}</h3>
+          <p>
+            {t('jumbotron-two-text1')}<br />
+            {t('jumbotron-two-text2')}<br />
+            {t('jumbotron-two-text3')}<br />
+            {t('jumbotron-two-text4')}<br />
+            {t('jumbotron-two-text5')}<br />
+            {t('jumbotron-two-text6')}<br />
+            {t('jumbotron-two-text7')}<br />
+            {t('jumbotron-two-text8')}<br />
+            {t('jumbotron-two-text9')}<br />
+            {t('jumbotron-two-text10')}<br />
+            {t('jumbotron-two-text11')}<br />
+            {t('jumbotron-two-text12')}<br />
+          </p>
+        </Container>
+      </Jumbo>
     </Styles>
   );
 }

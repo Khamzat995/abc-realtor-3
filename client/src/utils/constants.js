@@ -1,7 +1,7 @@
 import React from 'react'
-import picOne from '../assets/Images/picOne.png'
-import picThree from '../assets/Images/picThree.png'
-import picFour from '../assets/Images/picFour.png'
+import picOne from '../assets/Images/picOne.avif'
+import picThree from '../assets/Images/picThree.avif'
+import picFour from '../assets/Images/picFour.avif'
 
 
 export const links = [
