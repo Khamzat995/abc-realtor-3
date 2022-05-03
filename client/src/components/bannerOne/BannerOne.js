@@ -2,11 +2,11 @@ import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import citizenship2 from './images/citizenship2.avif';
-import citizenship from './images/citizenship.avif';
-import istanbul_one from './images/istanbul_one.avif';
-import citizenship4 from './images/citizenship4.avif';
-import citizenship1 from './images/citizenship1.avif';
+import citizenship2 from './images/citizenship2.webp';
+import citizenship from './images/citizenship.webp';
+import istanbul_one from './images/istanbul_one.webp';
+import citizenship4 from './images/citizenship4.webp';
+import citizenship1 from './images/citizenship1.webp';
 import Turkish from './video/Turkish_Flag1.mp4';
 
 

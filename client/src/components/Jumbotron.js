@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Jumbotron as Jumbo } from 'reactstrap';
 import styled from 'styled-components';
-import siti from '../assets/Images/real-estate.avif';
+import siti from '../assets/Images/real-estate.webp';
 import { useTranslation } from 'react-i18next';
 
 const Styles = styled.div`

@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import WhatsApp from '../assets/Icons/WhatsApp.avif';
-import Insta from '../assets/Icons/insta.avif';
-import Gmail from '../assets/Icons/Gmail.avif';
-import telegram from '../assets/Icons/telegram.avif';
+import WhatsApp from '../assets/Icons/WhatsApp.webp';
+import Insta from '../assets/Icons/insta.webp';
+import Gmail from '../assets/Icons/Gmail.webp';
+import telegram from '../assets/Icons/telegram.webp';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { useTranslation } from 'react-i18next';
 

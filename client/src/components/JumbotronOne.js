@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Jumbotron as Jumbo } from 'reactstrap';
 import styled from 'styled-components';
-import Antalya from '../assets/Images/Antalya.avif';
+import Antalya from '../assets/Images/Antalya.webp';
 import { useTranslation } from 'react-i18next';
 
 const Styles = styled.div`

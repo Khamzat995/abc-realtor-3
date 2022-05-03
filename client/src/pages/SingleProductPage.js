@@ -16,10 +16,10 @@ import ScrollToTop from 'react-scroll-to-top'
 import Product from '../components/Product';
 import { useTranslation } from 'react-i18next';
 import { Helmet } from "react-helmet";
-import WhatsApp from '../assets/Icons/WhatsApp.avif';
-import Insta from '../assets/Icons/insta.avif';
-import telegram from '../assets/Icons/telegram.avif'
-import Gmail from '../assets/Icons/Gmail.avif'
+import WhatsApp from '../assets/Icons/WhatsApp.webp';
+import Insta from '../assets/Icons/insta.webp';
+import telegram from '../assets/Icons/telegram.webp';
+import Gmail from '../assets/Icons/Gmail.webp';
 
 
 const SingleProductPage = () => {

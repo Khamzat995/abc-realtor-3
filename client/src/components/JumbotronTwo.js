@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Jumbotron as Jumbo } from 'reactstrap';
 import styled from 'styled-components';
-import panoramaJumbo from '../assets/Images/panoramaJombo.avif';
+import panoramaJumbo from '../assets/Images/panoramaJombo.webp';
 import { useTranslation } from 'react-i18next';
 
 const Styles = styled.div`

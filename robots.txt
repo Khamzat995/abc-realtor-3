@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-https://www.google.com/ping?sitemap=https://istanbul-expert.com/sitemap.xml
+Sitemap: https://istanbul-expert.com/sitemap.xml
