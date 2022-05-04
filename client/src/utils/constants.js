@@ -30,19 +30,19 @@ export const links = [
 export const services = [
   {
     id: 1,
-    image: <img src={picOne} style={{ borderRadius: "50px", width: "100px" }} alt="картинка" />,//<GiStabbedNote />,
+    image: <img src={picOne} style={{ borderRadius: "50px", width: "100px", height: "100px" }} alt="картинка" />,//<GiStabbedNote />,
     title: 'services-name-1',
     text: 'services-text-1',
   },
   {
     id: 2,
-    image: <img src={picFour} style={{ borderRadius: "50px", width: "100px" }} alt="картинка" />,//<GiStabbedNote />,
+    image: <img src={picFour} style={{ borderRadius: "50px", width: "100px", height: "100px" }} alt="картинка" />,//<GiStabbedNote />,
     title: 'services-name-2',
     text: 'services-text-2',
   },
   {
     id: 3,
-    image: <img src={picThree} style={{ borderRadius: "50px", width: "100px" }} alt="картинка" />,//<GiStabbedNote />,
+    image: <img src={picThree} style={{ borderRadius: "50px", width: "100px", height: "100px" }} alt="картинка" />,//<GiStabbedNote />,
     title: 'services-name-3',
     text: 'services-text-3',
   },

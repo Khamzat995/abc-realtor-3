@@ -15,7 +15,6 @@ import Sort from './Sort'
 import Stars from './Stars'
 import CartContent from './CartContent'
 import PageHero from './PageHero'
-import StripeCheckout from './StripeCheckout'
 import Jumbotron from './Jumbotron'
 import JumbotronOne from './JumbotronOne'
 import JumbotronTwo from './JumbotronTwo'
@@ -41,7 +40,6 @@ export {
   Stars,
   CartContent,
   PageHero,
-  StripeCheckout,
   Jumbotron,
   JumbotronOne,
   JumbotronTwo,
