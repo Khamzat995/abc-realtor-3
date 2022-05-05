@@ -10,6 +10,8 @@ import {
   Products,
   Citizenship
 } from "./pages";
+import XML from "./pages/sitemap.xml"
+
 
 import i18next from 'i18next';
 import HttpApi from 'i18next-http-backend';
@@ -54,7 +56,6 @@ function App() {
   return (
     <Suspense fallback={loadingMarkup}>
       <React.StrictMode>
-
         <div className="app">
           <Helmet>
             <title>Квартира в Турции</title>
@@ -81,6 +82,7 @@ function App() {
                 <Products />
               </Route>
               <Route exact path="/products/:id" children={<SingleProduct />} />
+              <Route component={XML} path={"/sitemap.xml"} />
               <Route path="*">
                 <Error />
               </Route>
