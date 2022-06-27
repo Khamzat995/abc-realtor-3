@@ -20,6 +20,7 @@ import WhatsApp from '../assets/Icons/WhatsApp.webp';
 import Insta from '../assets/Icons/insta.webp';
 import telegram from '../assets/Icons/telegram.webp';
 import Gmail from '../assets/Icons/Gmail.webp';
+import Youtube from '../assets/Icons/Youtube.webp'
 
 
 const SingleProductPage = () => {
@@ -237,6 +238,9 @@ const SingleProductPage = () => {
               </a>
               <a href="https://instagram.com/istanbul_expert/" target="_blank" rel="noopener noreferrer">
                 <img src={Insta} alt='icons' />
+              </a>
+              <a href="https://www.youtube.com/channel/UCR58sPLCgfgkZ0BDs9TKeCQ" target="_blank" rel="noopener noreferrer">
+                <img src={Youtube} alt='icons' />
               </a>
               <a href="mailto:exp.istanbul@gmail.com" target="_blank" rel="noopener noreferrer">
                 <img src={Gmail} alt='icons' />
