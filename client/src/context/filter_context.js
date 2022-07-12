@@ -75,56 +75,22 @@ export const FilterProvider = ({ children }) => {
     let value = e.target.value;
     if (name === "category") {
       value = e.target.textContent
-      if(value==='все' || value==='Все' || value==='All' || value === 'tümü' || value === 'Tümü' || value === 'الكل'){
-        value='all'
+      if (value === 'все' || value === 'Все' || value === 'All' || value === 'tümü' || value === 'Tümü' || value === 'الكل') {
+        value = 'all'
       }
-      if(value==='квартиры' || value === 'Квартиры'|| value==='apartments' || value === 'daireler' || value==='Apartments' || value === 'Daireler' || value === 'أرض'){
-        value='квартиры'
+      if (value === 'квартиры' || value === 'Квартиры' || value === 'apartments' || value === 'daireler' || value === 'Apartments' || value === 'Daireler' || value === 'أرض') {
+        value = 'квартиры'
       }
-      if(value==='дома' || value === 'Дома' || value==='houses' || value === 'evler' || value==='Houses' || value === 'Evler' || value === 'منازل'){
-        value='дома'
+      if (value === 'виллы' || value === 'Виллы' || value === 'villas' || value === 'Villas' || value === 'فلل') {
+        value = 'виллы'
       }
-      if(value==='земля' || value === 'Земля' || value==='earth' || value === 'dünya'  || value==='Earth' || value === 'Dünya' || value === 'شقق'){
-        value='земля'
+      if (value === 'дуплексы' || value === 'Дуплексы' || value === 'duplexes' || value === 'dubleksler' || value === 'Duplexes' || value === 'Dubleksler' || value === 'دوبلكس') {
+        value = 'дуплексы'
+      }
+      if (value === 'земля' || value === 'Земля' || value === 'earth' || value === 'dünya' || value === 'Earth' || value === 'Dünya' || value === 'شقق') {
+        value = 'земля'
       }
     }
-
-    // if (name === "company") {
-    //       value = e.target.textContent
-    //       if (value === 'все' || value === 'Все' || value === 'All' || value === 'tümü' || value === 'Tümü' || value === 'الكل') {
-    //         value = 'all'
-    //       }
-    //       if (value === '1+1') {
-    //         value = '1+1'
-    //       }
-    //       if (value === '2+1') {
-    //         value = '2+1'
-    //       }
-    //       if (value === '3+1') {
-    //         value = '3+1'
-    //       }
-    //       if (value === '4+1') {
-    //         value = '4+1'
-    //       }
-    //       if (value === '5+1') {
-    //         value = '5+1'
-    //       }
-    //       if (value === '3+2') {
-    //         value = '3+2'
-    //       }
-    //       if (value === '4+2') {
-    //         value = '4+2'
-    //       }
-    //       if (value === '5+2') {
-    //         value = '5+2'
-    //       }
-    //       if (value === '6+2') {
-    //         value = '6+2'
-    //       }
-    //       if (value === '7+2') {
-    //         value = '7+2'
-    //       }
-    //     }
 
     if (name === "color") {
       value = e.target.dataset.color;
