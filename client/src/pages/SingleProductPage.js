@@ -257,7 +257,11 @@ const SingleProductPage = () => {
             }
             <p className="info-1">
               <span className="floor-1">{t('product-span-text8')}{" "}</span>
-              <p className="fa fa-phone"> {t('product-span-text9')}</p>
+              <div class="wrap-coll">
+                <a href="tel:+905522868989">
+                  <button class="button-coll">{t('product-span-text9')}</button>
+                </a>
+              </div>
             </p>
             <p className="info-1">
               <ScrollAnimation animateIn="fadeInRight" delay={0.1 * 1000}>
