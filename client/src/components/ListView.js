@@ -10,7 +10,7 @@ const ListView = ({ products }) => {
   return (
     <Wrapper>
       {products.map((product) => {
-        const { _id, images, name, price, description, stars, reviews } = product;
+        const { _id, district, images, name, price, description, stars, reviews } = product;
         return (
           <article key={_id}>
             <Link to={`/products/${_id}`} >
@@ -36,12 +36,15 @@ const ListView = ({ products }) => {
                   <>{t('product-name-4')}</>
                 }
               </h4>
+
               <div className="stars-price" >
                 {/* <h5 className="price">{formatPrice(price)}</h5> */}
                 <h5 className="price">{price}$</h5>
                 <Stars stars={stars} reviews={reviews} />
               </div>
               <p>
+                <span>{t('product-span-text4')}</span>
+                {district}{". "}
                 {/*{description.substring(0, 150)}*/}
 
                 {
