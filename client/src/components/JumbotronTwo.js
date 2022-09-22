@@ -7,7 +7,8 @@ import { useTranslation } from 'react-i18next';
 
 const Styles = styled.div`
   .jumbo {
-    background: url(${panoramaJumbo})no-repeat fixed bottom;
+    /* background: url(${panoramaJumbo})no-repeat fixed bottom; */
+    background: url(${panoramaJumbo});
     background-size: cover;
     color: #efefef;
     height: 600px;
