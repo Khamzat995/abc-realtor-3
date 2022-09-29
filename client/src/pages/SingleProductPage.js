@@ -210,6 +210,30 @@ const SingleProductPage = () => {
                 description === "description_matar_akros" &&
                 <>{t('product-description-24')}</>
               }
+              {
+                description === "description_beytturk_summer" &&
+                <>{t('product-description-25')}</>
+              }
+              {
+                description === "description_beytturk_beytepe" &&
+                <>{t('product-description-26')}</>
+              }
+              {
+                description === "description_beytturk_beytepe_plus" &&
+                <>{t('product-description-27')}</>
+              }
+              {
+                description === "description_lake_city" &&
+                <>{t('product-description-28')}</>
+              }
+              {
+                description === "description_beytturk_mia_thermal" &&
+                <>{t('product-description-29')}</>
+              }
+              {
+                description === "description_beytturk_orman" &&
+                <>{t('product-description-30')}</>
+              }
             </p>
             <p className="info">
               <span>{t('product-span-text1')}</span>
