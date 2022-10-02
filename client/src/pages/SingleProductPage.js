@@ -37,6 +37,7 @@ const SingleProductPage = () => {
     fetchSingleProduct,
   } = useProductsContext();
 
+  const relatedProducts = newProducts.filter((prod) => prod.company === product.company);
   /*useEffect(() => {
     if (error) {
       setTimeout(() => {
@@ -336,11 +337,9 @@ const SingleProductPage = () => {
         <div className="prefix">
           <ScrollToTop />
           {
-            newProducts.slice(0, 6).map((product) => {
-              return product.company === product.company
-                ?
-                <div className="products" >
-                  <Product key={product.id} {...product} />  </div> : null
+            relatedProducts.slice(0, 6).map((product) => {
+              return <div className="products" >
+                <Product key={product.id} {...product} />  </div>
             })
           }
         </div>
