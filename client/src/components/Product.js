@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 
-const Product = ({ images, name, category, company, footage, price, district, _id }) => {
+const Product = ({ images, name, category, company, footage, price, district, construction, _id }) => {
   const { t } = useTranslation();
 
   return (
@@ -16,6 +16,20 @@ const Product = ({ images, name, category, company, footage, price, district, _i
             {district}
           </p>
           <img src={images[0].url} alt={name} />
+          <p id="blink" className="info-construction">
+            {
+              construction === "2023" &&
+              <><span>{t('product-construction-1')}</span></>
+            }
+            {
+              construction === "2024" &&
+              <><span>{t('product-construction-2')}</span></>
+            }
+            {
+              construction === "2025" &&
+              <><span>{t('product-construction-3')}</span></>
+            }
+          </p>
         </div>
         <footer>
           <h5>

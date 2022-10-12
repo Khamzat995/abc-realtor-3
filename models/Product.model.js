@@ -50,7 +50,7 @@ const productSchema = new mongoose.Schema(
         },
       },
     ],
-    shipping: {    ////перевозки, доставка
+    shipping: {    //перевозки, доставка
       type: Boolean,
       required: false,
     },
@@ -79,6 +79,10 @@ const productSchema = new mongoose.Schema(
       required: false,
     },
     floor: { // этаж
+      type: String,
+      required: false,
+    },
+    construction: { // стройка
       type: String,
       required: false,
     },
