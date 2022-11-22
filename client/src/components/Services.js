@@ -12,23 +12,25 @@ const Services = () => {
       <div className="section-center">
         <article className="header">
           <ScrollAnimation animateIn='bounceInLeft'>
-          <h3>{t('services-title')}</h3>
+            <h3>{t('services-title')}</h3>
           </ScrollAnimation>
           <ScrollAnimation animateIn='bounceInRight'>
-          <p>{t('services-text')}</p>
+            <p>{t('services-text')}</p>
           </ScrollAnimation>
         </article>
         <div className="services-center">
           {services.map((service) => {
             const { id, image, title, text } = service;
             return (
-              <ScrollAnimation key={id} animateIn='flipInY'>
               <article key={id} className="service">
-                <span className="icon">{image}</span>
-                <h4>{t(title)}</h4>
-                <p>{t(text)}</p>
+                <ScrollAnimation animateIn='bounceInLeft'>
+                  <span className="icon">{image}</span>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn='bounceInRight'>
+                  <h4>{t(title)}</h4>
+                  <p>{t(text)}</p>
+                </ScrollAnimation>
               </article>
-              </ScrollAnimation>
             );
           })}
         </div>
