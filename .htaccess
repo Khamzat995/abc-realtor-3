@@ -1,20 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<configuration>
-    <system.webServer>
-        <rewrite>
-            <rules>
-                <rule name="Redirect to https" stopProcessing="true">
-                    <match url="(.*)" />
-                    <conditions>
-                        <add input="{HTTPS}" pattern="off" ignoreCase="true" />
-                    </conditions>
-                    <action type="Redirect" url="https://{HTTP_HOST}{REQUEST_URI}" redirectType="Permanent" />
-                </rule>
-            </rules>
-        </rewrite>
-    </system.webServer>
-</configuration>
-
 # Включение Cache-Control используя Headers
 # Установить mod_headers и включить в файле (/usr/local/apache/conf/httpd.conf)
 <ifModule mod_headers.c>
