@@ -264,6 +264,39 @@ const SingleProductPage = () => {
                 description === "description_sidelya_park" &&
                 <>{t('product-description-34')}</>
               }
+              {
+                description === "description_mavera_residence" &&
+                <>{t('product-description-35')}</>
+              }
+              {
+                description === "description_mavera_park3" &&
+                <>{t('product-description-36')}</>
+              }
+              {
+                description === "description_mavera_villaları" &&
+                <>{t('product-description-37')}</>
+              }
+              {
+                description === "description_mavera_comfort" &&
+                <>{t('product-description-38')}</>
+              }
+              {
+                description === "description_mavera_alc" &&
+                <>{t('product-description-39')}</>
+              }
+              {
+                description === "description_mavera_boutique" &&
+                <>{t('product-description-40')}</>
+              }
+              {
+                description === "description_mavera_seyran" &&
+                <>{t('product-description-41')}</>
+              }
+              {
+                description === "description_valentine" &&
+                <>{t('product-description-42')}</>
+              }
+
             </p>
             <p className="info">
               <span>{t('product-span-text1')}</span>

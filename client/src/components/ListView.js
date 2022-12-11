@@ -184,6 +184,39 @@ const ListView = ({ products }) => {
                   description === "description_sidelya_park" &&
                   <>{t('product-description-34').substring(0, 150)}</>
                 }
+
+                {
+                  description === "description_mavera_residence" &&
+                  <>{t('product-description-35').substring(0, 150)}</>
+                }
+                {
+                  description === "description_mavera_park3" &&
+                  <>{t('product-description-36').substring(0, 150)}</>
+                }
+                {
+                  description === "description_mavera_villaları" &&
+                  <>{t('product-description-37').substring(0, 150)}</>
+                }
+                {
+                  description === "description_mavera_comfort" &&
+                  <>{t('product-description-38').substring(0, 150)}</>
+                }
+                {
+                  description === "description_mavera_alc" &&
+                  <>{t('product-description-39').substring(0, 150)}</>
+                }
+                {
+                  description === "description_mavera_boutique" &&
+                  <>{t('product-description-40').substring(0, 150)}</>
+                }
+                {
+                  description === "description_mavera_seyran" &&
+                  <>{t('product-description-41').substring(0, 150)}</>
+                }
+                {
+                  description === "description_valentine" &&
+                  <>{t('product-description-42').substring(0, 150)}</>
+                }
                 ...</p>
               <Link to={`/products/${_id}`} className="btn">
                 {t('list-view-1')}
