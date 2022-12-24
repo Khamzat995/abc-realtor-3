@@ -296,6 +296,10 @@ const SingleProductPage = () => {
                 description === "description_valentine" &&
                 <>{t('product-description-42')}</>
               }
+              {
+                description === "description_avrupa_camlı" &&
+                <>{t('product-description-43')}</>
+              }
 
             </p>
             <p className="info">
