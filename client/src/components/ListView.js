@@ -221,6 +221,10 @@ const ListView = ({ products }) => {
                   description === "description_avrupa_camlı" &&
                   <>{t('product-description-43').substring(0, 150)}</>
                 }
+                {
+                  description === "description_garden_park" &&
+                  <>{t('product-description-44').substring(0, 150)}</>
+                }
                 ...</p>
               <Link to={`/products/${_id}`} className="btn">
                 {t('list-view-1')}

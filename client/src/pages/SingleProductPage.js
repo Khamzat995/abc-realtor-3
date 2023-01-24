@@ -300,6 +300,10 @@ const SingleProductPage = () => {
                 description === "description_avrupa_camlı" &&
                 <>{t('product-description-43')}</>
               }
+              {
+                description === "description_garden_park" &&
+                <>{t('product-description-44')}</>
+              }
 
             </p>
             <p className="info">
