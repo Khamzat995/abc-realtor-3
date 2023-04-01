@@ -33,6 +33,14 @@ const CartItem = ({ id, image, name, price, amount, footage }) => {
                 name === "вилла" &&
                 <>{t('product-name-4')}</>
               }
+              {
+                name === "офис" &&
+                <>{t('product-name-5')}</>
+              }
+              {
+                name === "магазин" &&
+                <>{t('product-name-6')}</>
+              }
             </h5>
             {/* <h5 className="price-small">{formatPrice(price)}</h5> */}
             <h5 className="price-small">{price}$</h5>

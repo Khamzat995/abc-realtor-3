@@ -35,6 +35,14 @@ const ListView = ({ products }) => {
                   name === "вилла" &&
                   <>{t('product-name-4')}</>
                 }
+                {
+                  name === "офис" &&
+                  <>{t('product-name-5')}</>
+                }
+                {
+                  name === "магазин" &&
+                  <>{t('product-name-6')}</>
+                }
               </h4>
 
               <div className="stars-price" >
@@ -232,6 +240,10 @@ const ListView = ({ products }) => {
                 {
                   description === "description_taksim_360" &&
                   <>{t('product-description-46').substring(0, 150)}</>
+                }
+                {
+                  description === "description_dap_vadisi" &&
+                  <>{t('product-description-47').substring(0, 150)}</>
                 }
                 ...</p>
               <Link to={`/products/${_id}`} className="btn">

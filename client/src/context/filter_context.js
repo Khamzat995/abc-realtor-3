@@ -90,6 +90,12 @@ export const FilterProvider = ({ children }) => {
       if (value === 'земля' || value === 'Земля' || value === 'earth' || value === 'dünya' || value === 'Earth' || value === 'Dünya' || value === 'شقق') {
         value = 'земля'
       }
+      if (value === 'офисы' || value === 'Офисы' || value === 'offices' || value === 'Offices' || value === 'ofisler' || value === 'Ofisler' || value === 'مكاتب') {
+        value = 'офисы'
+      }
+      if (value === 'магазины' || value === 'Магазины' || value === 'shops' || value === 'Shops' || value === 'dükkanlar' || value === 'Dükkanlar' || value === 'محلات') {
+        value = 'магазины'
+      }
     }
 
     if (name === "color") {

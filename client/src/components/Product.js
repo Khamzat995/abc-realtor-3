@@ -49,6 +49,14 @@ const Product = ({ images, name, category, company, footage, price, district, co
               name === "вилла" &&
               <>{t('product-name-4')}</>
             }
+            {
+              name === "офис" &&
+              <>{t('product-name-5')}</>
+            }
+            {
+              name === "магазин" &&
+              <>{t('product-name-6')}</>
+            }
 
           </h5>
           <div>
@@ -73,6 +81,12 @@ const Product = ({ images, name, category, company, footage, price, district, co
               <i className="fa fa-cube" aria-hidden="true"> {footage}{" "}м² </i>
             }
             {category === "виллы" &&
+              <i className="fa fa-cube" aria-hidden="true"> {footage}{" "}м² </i>
+            }
+            {category === "офисы" &&
+              <i className="fa fa-cube" aria-hidden="true"> {footage}{" "}м² </i>
+            }
+            {category === "магазины" &&
               <i className="fa fa-cube" aria-hidden="true"> {footage}{" "}м² </i>
             }
           </div>

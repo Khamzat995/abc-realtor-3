@@ -101,6 +101,14 @@ const SingleProductPage = () => {
                 name === "вилла" &&
                 <>{t('product-name-4')}</>
               }
+              {
+                name === "офис" &&
+                <>{t('product-name-5')}</>
+              }
+              {
+                name === "магазин" &&
+                <>{t('product-name-6')}</>
+              }
             </h2>
             <Stars stars={stars} reviews={reviews} />
             {/* <h5 className="price">{formatPrice(price)}</h5> */}
@@ -312,6 +320,10 @@ const SingleProductPage = () => {
                 description === "description_taksim_360" &&
                 <>{t('product-description-46')}</>
               }
+              {
+                description === "description_dap_vadisi" &&
+                <>{t('product-description-47')}</>
+              }
             </p>
             <p className="info">
               <span>{t('product-span-text1')}</span>
@@ -339,17 +351,23 @@ const SingleProductPage = () => {
                 {company}
               </p>
             }
+            {category === "офисы" &&
+              <p className="info">
+                <span>{t('product-span-text5')}</span>
+                {company}
+              </p>
+            }
+            {category === "магазины" &&
+              <p className="info">
+                <span>{t('product-span-text5')}</span>
+                {company}
+              </p>
+            }
             <p className="info">
               <span>{t('product-span-text6')}</span>
               {footage}{" "} м²
             </p>
             {category === "дуплексы" &&
-              <p className="info">
-                <span className="floor">{t('product-span-text7')}</span>
-                <p className="floor-two">{floor}</p>
-              </p>
-            }
-            {category === "квартиры" &&
               <p className="info">
                 <span className="floor">{t('product-span-text7')}</span>
                 <p className="floor-two">{floor}</p>
@@ -361,6 +379,25 @@ const SingleProductPage = () => {
                 <p className="floor-two">{floor}</p>
               </p>
             }
+            {category === "офисы" &&
+              <p className="info">
+                <span className="floor">{t('product-span-text7')}</span>
+                <p className="floor-two">{floor}</p>
+              </p>
+            }
+            {category === "магазины" &&
+              <p className="info">
+                <span className="floor">{t('product-span-text7')}</span>
+                <p className="floor-two">{floor}</p>
+              </p>
+            }
+            {category === "" &&
+              <p className="info">
+                <span className="floor">{t('product-span-text7')}</span>
+                <p className="floor-two">{floor}</p>
+              </p>
+            }
+
             <p className="info-1">
               <span className="floor-1">{t('product-span-text8')}{" "}</span>
               <div class="wrap-coll">
