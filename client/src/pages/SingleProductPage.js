@@ -332,6 +332,10 @@ const SingleProductPage = () => {
                 description === "description_ertas" &&
                 <>{t('product-description-49')}</>
               }
+              {
+                description === "description_ramada_hotel" &&
+                <>{t('product-description-50')}</>
+              }
             </p>
             <p className="info">
               <span>{t('product-span-text1')}</span>
